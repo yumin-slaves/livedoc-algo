@@ -1,0 +1,49 @@
+# CMake build output
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled object files, libs, executables
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# VSCode settings
+.vscode/
+
+# Mac OS metadata
+.DS_Store
+
+# WSL-specific (if any temp files)
+*.swp
+*.swo
+*.~*
+
+# Debug symbols
+*.dSYM/
+*.pdb
+*.ilk
+
+# Logs
+*.log
+
+# Backup files
+*~
+
+# Optional: Catch2 or GoogleTest build folders
+/test/build/
+/benchmark/build/
+
+# Optional: user-generated test data or binaries
+!data/sample.json
+*.bin
+*.dat
+*.json
+*.csv
