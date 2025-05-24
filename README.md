@@ -9,7 +9,7 @@ LiveDoc의 알고리즘 파트입니다
 cmake -B build
 cmake --build build
 
-./build/test_crdt
+./build/crdt_test
 ./build/benchmark_crdt
 ```
 
